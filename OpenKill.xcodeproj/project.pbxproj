@@ -88,6 +88,7 @@
 		7920A78E27C7EE0300348D55 /* Lookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lookup.swift; sourceTree = "<group>"; };
 		7920A78F27C7EE0400348D55 /* FP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FP.swift; sourceTree = "<group>"; };
 		7920A79927C7EE1200348D55 /* Helpers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Helpers.md; sourceTree = "<group>"; };
+		7920A79A27C8063700348D55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 		7920A72927C7D48F00348D55 = {
 			isa = PBXGroup;
 			children = (
+				7920A79A27C8063700348D55 /* README.md */,
 				7920A72E27C7D48F00348D55 /* Shared */,
 				7920A73D27C7D49000348D55 /* macOS */,
 				7920A74627C7D49000348D55 /* Tests iOS */,
