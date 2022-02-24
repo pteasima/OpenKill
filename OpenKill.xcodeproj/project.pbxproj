@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0436B4E527C8141F00CCCB81 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0436B4E427C8141F00CCCB81 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		0436B4E727C8141F00CCCB81 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0436B4E627C8141F00CCCB81 /* FirebaseFirestore */; };
+		0436B4E927C8144100CCCB81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436B4E827C8144100CCCB81 /* AppDelegate.swift */; };
+		0436B4EA27C8144100CCCB81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436B4E827C8144100CCCB81 /* AppDelegate.swift */; };
 		7920A74827C7D49000348D55 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A74727C7D49000348D55 /* Tests_iOS.swift */; };
 		7920A74A27C7D49000348D55 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A74927C7D49000348D55 /* Tests_iOSLaunchTests.swift */; };
 		7920A75427C7D49000348D55 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A75327C7D49000348D55 /* Tests_macOS.swift */; };
@@ -57,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0436B4E227C813BB00CCCB81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0436B4E827C8144100CCCB81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7920A72F27C7D48F00348D55 /* OpenKillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenKillApp.swift; sourceTree = "<group>"; };
 		7920A73027C7D48F00348D55 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7920A73127C7D49000348D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7920A78527C7EA7D00348D55 /* Service in Frameworks */,
+				0436B4E727C8141F00CCCB81 /* FirebaseFirestore in Frameworks */,
+				0436B4E527C8141F00CCCB81 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				7920A76D27C7D4D700348D55 /* Tagged in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +136,7 @@
 		7920A72927C7D48F00348D55 = {
 			isa = PBXGroup;
 			children = (
+				0436B4E227C813BB00CCCB81 /* GoogleService-Info.plist */,
 				7920A79A27C8063700348D55 /* README.md */,
 				7920A72E27C7D48F00348D55 /* Shared */,
 				7920A73D27C7D49000348D55 /* macOS */,
@@ -147,6 +156,7 @@
 				7920A77C27C7E8BE00348D55 /* View */,
 				7920A72F27C7D48F00348D55 /* OpenKillApp.swift */,
 				7920A73127C7D49000348D55 /* Assets.xcassets */,
+				0436B4E827C8144100CCCB81 /* AppDelegate.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -255,6 +265,8 @@
 			packageProductDependencies = (
 				7920A76C27C7D4D700348D55 /* Tagged */,
 				7920A78427C7EA7D00348D55 /* Service */,
+				0436B4E427C8141F00CCCB81 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				0436B4E627C8141F00CCCB81 /* FirebaseFirestore */,
 			);
 			productName = "OpenKill (iOS)";
 			productReference = 7920A73627C7D49000348D55 /* OpenKill.app */;
@@ -351,6 +363,7 @@
 			packageReferences = (
 				7920A76B27C7D4D700348D55 /* XCRemoteSwiftPackageReference "swift-tagged" */,
 				7920A78327C7EA7D00348D55 /* XCRemoteSwiftPackageReference "Service" */,
+				0436B4E327C8141F00CCCB81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 7920A73727C7D49000348D55 /* Products */;
 			projectDirPath = "";
@@ -420,6 +433,7 @@
 				7920A75727C7D49000348D55 /* OpenKillApp.swift in Sources */,
 				7920A79227C7EE0400348D55 /* SimpleError.swift in Sources */,
 				7920A79427C7EE0400348D55 /* Collection+SafeSubscript.swift in Sources */,
+				0436B4E927C8144100CCCB81 /* AppDelegate.swift in Sources */,
 				7920A79727C7EE0400348D55 /* Lookup.swift in Sources */,
 				7920A77627C7D93A00348D55 /* Kill.swift in Sources */,
 			);
@@ -429,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0436B4EA27C8144100CCCB81 /* AppDelegate.swift in Sources */,
 				7920A75A27C7D49000348D55 /* RootView.swift in Sources */,
 				7920A75827C7D49000348D55 /* OpenKillApp.swift in Sources */,
 			);
@@ -826,6 +841,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0436B4E327C8141F00CCCB81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		7920A76B27C7D4D700348D55 /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-tagged.git";
@@ -845,6 +868,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0436B4E427C8141F00CCCB81 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0436B4E327C8141F00CCCB81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		0436B4E627C8141F00CCCB81 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0436B4E327C8141F00CCCB81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
 		7920A76C27C7D4D700348D55 /* Tagged */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7920A76B27C7D4D700348D55 /* XCRemoteSwiftPackageReference "swift-tagged" */;
