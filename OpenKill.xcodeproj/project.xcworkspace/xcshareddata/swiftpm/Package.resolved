@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Service",
+        "repositoryURL": "https://github.com/pteasima/Service",
+        "state": {
+          "branch": "main",
+          "revision": "c216e4770466ee10fbea172bc0b9d882b18886d7",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-tagged",
+        "repositoryURL": "https://github.com/pointfreeco/swift-tagged.git",
+        "state": {
+          "branch": null,
+          "revision": "f3f773a5e13f3c8f0ab1ce2ae6378058acefa87d",
+          "version": "0.7.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

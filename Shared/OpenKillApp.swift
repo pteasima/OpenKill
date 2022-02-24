@@ -11,7 +11,7 @@ import SwiftUI
 struct OpenKillApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
