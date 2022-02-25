@@ -4,9 +4,9 @@
 //
 //  Created by Serhij Nistor on 24.02.2022.
 //
-
 import Firebase
-import UIKit
+import Foundation
+import SwiftUI
 
 // @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         FirebaseApp.configure()
-
         return true
     }
 }
